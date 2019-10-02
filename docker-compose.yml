@@ -1,0 +1,8 @@
+---
+version: '3.7'
+services:
+  nginx:
+    image: nginx
+    build: .
+    volumes:
+      - ./config/nginx.conf:/etc/nginx/nginx.conf
