@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.18.0
+
+* Run as user `nobody` and group `nogroup` instead of `root`.
+
 ## 1.17.7
 
 * Upgrade to nginx 1.17.7.
