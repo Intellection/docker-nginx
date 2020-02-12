@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.18.0
+## 1.17.7-1
 
-* Run as user `nobody` and group `nogroup` instead of `root`.
+* Run as user `nobody` and group `nobody` instead of `root`.
 
 ## 1.17.7
 
