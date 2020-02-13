@@ -6,4 +6,4 @@ RUN chmod -R 777 /var/log/nginx /var/cache/nginx/ /var/run/ && \
 
 STOPSIGNAL SIGQUIT
 
-USER nginx: nginx
+USER nginx:nginx
