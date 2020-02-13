@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.17.7-2
+
+* Change runtime user and group to `nginx:nginx`.
+* Fix permission issue with `/var/cache/nginx`.
+
 ## 1.17.7-1
 
 * Run as user `nobody` and group `nobody` instead of `root`.
