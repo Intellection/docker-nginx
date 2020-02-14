@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.17.7-3
+
+* Remove user directive.
+* Expose and listen on port `8080` instead of `80`.
+* Change owner of core files and directories to `nginx:nginx`.
+
 ## 1.17.7-2
 
 * Change runtime user and group to `nginx:nginx`.
