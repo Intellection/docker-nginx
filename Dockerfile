@@ -13,4 +13,6 @@ RUN touch /var/run/nginx.pid && \
 
 STOPSIGNAL SIGQUIT
 
+EXPOSE 8080
+
 USER nginx:nginx
