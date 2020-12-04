@@ -1,6 +1,6 @@
 # Changelog
 
-# 1.19.5
+## 1.19.5
 
 * Upgrade to nginx 1.19.5.
 
