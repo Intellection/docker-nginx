@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.19.5
+
+* Upgrade to nginx 1.19.5.
+
 ## 1.17.7-3
 
 * Remove user directive.

@@ -1,4 +1,6 @@
-FROM nginx:1.17.7-alpine
+FROM nginx:1.19.5-alpine
+
+ENV NGINX_ENTRYPOINT_QUIET_LOGS=1
 
 # Override default configuration files
 COPY ./config/nginx.conf /etc/nginx/nginx.conf
