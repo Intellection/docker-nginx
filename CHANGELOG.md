@@ -1,12 +1,17 @@
 # Changelog
 
+## 1.25.2
+
+* Upgrade to Nginx 1.25.2.
+* Upgrade to Alpine 3.18.
+
 ## 1.23.3
 
-* Upgrade to nginx 1.23.3.
+* Upgrade to Nginx 1.23.3.
 
 ## 1.19.5
 
-* Upgrade to nginx 1.19.5.
+* Upgrade to Nginx 1.19.5.
 
 ## 1.17.7-3
 
@@ -25,9 +30,9 @@
 
 ## 1.17.7
 
-* Upgrade to nginx 1.17.7.
+* Upgrade to Nginx 1.17.7.
 
 ## 1.16.1
 
-* Use nginx 1.16.1 alpine as upstream base image.
+* Use Nginx 1.16.1 alpine as upstream base image.
 * Change `STOPSIGNAL` to `SIGQUIT`.
