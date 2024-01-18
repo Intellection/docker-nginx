@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.25.3
+
+* Upgrade to Nginx 1.25.3.
+* Switch from Alpine to Debian (Bookworm).
+
 ## 1.25.2
 
 * Upgrade to Nginx 1.25.2.
