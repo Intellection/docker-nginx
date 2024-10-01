@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.27.1
+
+* Upgrade to Nginx 1.27.1.
+
 ## 1.25.4
 
 * Upgrade to Nginx 1.25.4.
