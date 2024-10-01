@@ -5,6 +5,9 @@ on:
     branches:
       - 'master'
 
+env:
+  IMAGE: zappi/nginx
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +18,7 @@ jobs:
         id: metadata
         uses: docker/metadata-action@v5
         with:
-          images: zappi/nginx
+          images: ${{ env.IMAGE }}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx
