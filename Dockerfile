@@ -1,4 +1,4 @@
-FROM nginx:1.27.1-bookworm
+FROM nginx:1.27.4-bookworm
 
 ENV NGINX_ENTRYPOINT_QUIET_LOGS=1
 
