@@ -1,4 +1,4 @@
-FROM nginx:1.27.4-bookworm
+FROM nginx:1.31.0-trixie
 
 ENV NGINX_ENTRYPOINT_QUIET_LOGS=1
 
