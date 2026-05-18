@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.31.0
+
+* Upgrade to Nginx 1.31.0 to address CVE-2026-42945 (heap buffer overflow in `ngx_http_rewrite_module`).
+* Switch base from Debian Bookworm (12) to Debian Trixie (13). Upstream Nginx no longer publishes a `-bookworm` tag for 1.31.0.
+
 ## 1.27.4
 
 * Upgrade to Nginx 1.27.4.
