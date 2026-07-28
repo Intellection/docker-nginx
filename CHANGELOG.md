@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.31.3
+
+* Upgrade to Nginx 1.31.3.
+* Switch from Debian Bookworm to Trixie, picking up the patched OpenSSL
+  for CVE-2025-69419.
+
 ## 1.27.4
 
 * Upgrade to Nginx 1.27.4.
