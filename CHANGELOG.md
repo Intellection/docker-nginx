@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.31.8
+
+* Upgrade to Nginx 1.31.8.
+
 ## 1.31.3
 
 * Upgrade to Nginx 1.31.3.
