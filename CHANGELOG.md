@@ -2,8 +2,7 @@
 
 ## 1.31.8
 
-* Upgrade to Nginx 1.31.8, picking up the patched Brotli for
-  CVE-2026-111497.
+* Upgrade to Nginx 1.31.8.
 
 ## 1.31.3
 
