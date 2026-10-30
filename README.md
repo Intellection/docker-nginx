@@ -8,7 +8,8 @@ https://wikipedia.org/wiki/nginx
 
 ## How does this differ from upstream?
 
-Currently, the only difference is that we use `SIGQUIT` as the [`STOPSIGNAL`](https://docs.docker.com/engine/reference/builder/#stopsignal) whereas upstream uses the default i.e. `SIGTERM`. Using `SIGQUIT` is better for our use-case as it ensures that nginx will perform a [graceful shutdown](https://docs.nginx.com/nginx/admin-guide/basic-functionality/runtime-control/).
+* We use `SIGQUIT` as the [`STOPSIGNAL`](https://docs.docker.com/engine/reference/builder/#stopsignal) whereas upstream uses the default i.e. `SIGTERM`. Using `SIGQUIT` is better for our use-case as it ensures that nginx will perform a [graceful shutdown](https://docs.nginx.com/nginx/admin-guide/basic-functionality/runtime-control/).
+* We remove the `acme`, `geoip`, `image-filter`, `njs` and `xslt` dynamic modules and `curl`, which upstream installs but we don't use. This keeps their libraries, and the vulnerabilities reported against them, out of the image. Install them in a derived image if you need them.
 
 ## Usage
 
