@@ -3,7 +3,8 @@
 ## 1.31.8-1
 
 * Remove the `acme`, `geoip`, `image-filter`, `njs` and `xslt` dynamic
-  modules and `curl`.
+  modules.
+* Remove `curl`.
 
 ## 1.31.8
 
