@@ -1,4 +1,4 @@
-FROM nginx:1.31.8-trixie
+FROM nginx:1.31.9-trixie
 
 ENV NGINX_ENTRYPOINT_QUIET_LOGS=1
 

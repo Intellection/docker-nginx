@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.31.9
+
+* Upgrade to Nginx 1.31.9.
+
 ## 1.31.8-1
 
 * Remove the `acme`, `geoip`, `image-filter`, `njs` and `xslt` dynamic
